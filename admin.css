@@ -1,0 +1,132 @@
+/* admin.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6fb;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72, #f4f6f8); /* Blue gradient */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #1e3c72;
+}
+
+.admin-section {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.admin-form input[type="text"],
+.admin-form textarea,
+.admin-form input[type="file"] {
+    padding: 10px;
+    border: 2px solid #1e3c72;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+    border-color: #8a2be2; /* Violet accent */
+    outline: none;
+}
+
+.admin-form button {
+    background: #ff7f11; /* Orange */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.admin-form button:hover {
+    background: #e36d00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #1e3c72;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table img {
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1e3c72;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8a2be2; /* Violet accent */
+}
+
+form[method="POST"] button[type="submit"] {
+    background-color: #ff7f11;
+}
+
+form[method="POST"] button[type="submit"]:hover {
+    background-color: #cc6600;
+}
+
+#updateModal {
+    border: 2px solid #1e3c72;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #2a5298;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
