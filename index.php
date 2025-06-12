@@ -406,8 +406,7 @@ header h2 {
                 </div>
                 <div class="footer-section">
                     <h3>Contact Us</h3>
-                    <p>supportfoodievibeofarchipatel@gmail.com</p>
-                    <p>Phone: +919898191111</p>
+                    <p>supportfoodievibe@gmail.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
